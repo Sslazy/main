@@ -1,0 +1,124 @@
+/* 顶部通栏 */
+#header{
+    width: 100%;
+    height: 72px;
+    border-bottom: 1px solid #ccc;
+}
+.nav-box{
+    min-width: 1152px;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+/* logo */
+.nav-box h1{
+    width: 126px;
+    height: 72px;
+    background-image: url(../images/logo.png);
+    /* background-size: 126px 72px; */
+    /* background-size: contain; */
+    background-size: cover;
+}
+
+.nav-box h1 a{
+    display: block;
+    width: 126px;
+    height: 72px;
+    font-size: 0 ;
+}
+
+/* 课程导航 */
+.item-box{
+    height: 72px;
+    line-height: 72px;
+    margin-left: 26px;
+}
+
+.item-box .nav-item{
+    float: left;
+    padding: 0 16px;
+
+}
+
+/* new icon */
+.new{
+    position: relative;
+}
+.new img{
+    position: absolute;
+    top: 20px;
+    right: 2px;
+    width: 14px ;
+}
+
+/* 搜索框 */
+.search{
+    padding: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+
+.search div{
+    background: color #f3f5f6;
+}
+
+.search div input{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border:0;
+    background-color: #f3f5f6;
+}
+
+.search .iconfont{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* 个人中心 */
+.login-area{
+    line-height: 72px;
+
+}
+
+.login-area a{
+    padding: 0 10px;
+}
+
+.login-area .shop-cart{
+    position: relative;
+}
+
+.login-area .shop-cart .iconfont{
+    font-size: 20px;
+}
+
+.login-area .shop-cart:hover{
+    color: brown;
+}
+
+.login-area .shop-cart .cart-num{
+    position: absolute;
+    top: -8px;
+    right: -5px;
+    text-align: center;
+    color: #fff;
+    font-size: 5px;
+    line-height: 12px;
+    display: block;
+    width: 20px;
+    height: 12px;
+    background-color: brown;
+    border-radius: 5px;
+}
+
+.login-area a img{
+    width: 40px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(40%);
+}
+
+
+
